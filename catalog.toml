@@ -1628,8 +1628,8 @@ tags = ["bar", "panel", "service", "productivity", "utility"]
 [[plugin]]
 id = "dragged/cider"
 name = "Cider"
-version = "1.10.0"
-updated_at = 1788957625
+version = "1.11.1"
+updated_at = 1791551895
 added_at = 1787148354
 author = "dragged"
 license = "MIT"
@@ -2490,13 +2490,13 @@ tags = ["bar", "panel", "service", "hardware", "utility", "umbriel"]
 [[plugin]]
 id = "nightwatch75/claude-cockpit"
 name = "Claude Cockpit"
-version = "0.6.5"
-updated_at = 1789150097
+version = "0.7.0"
+updated_at = 1791552209
 added_at = 1789089483
 author = "nightwatch75"
 license = "MIT"
 icon = "robot"
-description = "Monitor Claude Code usage, browse and manage local sessions, edit CLAUDE.md files."
+description = "Monitor Claude Code usage, manage local sessions, skills and mods, edit CLAUDE.md files."
 plugin_api = 24
 tags = ["ai", "development", "bar", "panel", "service", "productivity"]
 
@@ -3427,8 +3427,8 @@ tags = ["hyprland", "panel", "bar", "launcher", "service", "system", "utility"]
 [[plugin]]
 id = "ismay/keyboard-state"
 name = "Keyboard State"
-version = "1.0.0"
-updated_at = 1791462496
+version = "1.1.0"
+updated_at = 1791552083
 added_at = 1791462496
 author = "ismay"
 license = "MIT"
@@ -3475,3 +3475,16 @@ icon = "activity"
 description = "Live oscilloscope of the default audio output rendered in the bar."
 plugin_api = 3
 tags = ["audio", "bar", "utility"]
+
+[[plugin]]
+id = "pk/geoip-monitor"
+name = "GeoIP Monitor"
+version = "1.2.3"
+updated_at = 1791552668
+added_at = 1791552668
+author = "pk"
+license = "MIT"
+icon = "globe"
+description = "Reports geographical location based on external ip in the bar"
+plugin_api = 9
+tags = ["bar", "network", "utility"]
